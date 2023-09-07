@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "Fname": "manasa",
+      "Lname": "v",
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "ename": "hack",
+      "link": "https://tnp.vnrvjiet.ac.in/dashboard",
+      "id": 1
+    }
+  ],
+  "profile": {}
+}
