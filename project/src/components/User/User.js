@@ -31,7 +31,7 @@ function User(){
     return(
         <div className="Cards">
             <div className="headings">
-            <button onClick={logOut} className="btn btn-primary btn1">
+            <button onClick={logOut} className="btn btn-primary btn1 button1">
             <span className="arrow">&larr;</span>Log Out 
             </button>
             <h3>** In Order To Register For The Event Please Do Click On The Event **</h3>

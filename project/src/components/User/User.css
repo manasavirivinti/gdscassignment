@@ -25,12 +25,10 @@
     box-shadow: 2px 2px 2px 2px grey;
 
 }
-.headings{
+.button1{
     display: flex;
-    
-}
-h3{
-    text-align: center;
+    justify-content: center;
+    padding: 10px;
 }
 .name{
     color: #105069;

@@ -75,7 +75,7 @@ export default function SignUp() {
             />
           </div>
           <div className="d-grid">
-            <button type="submit" className="btn btn-success button1">
+            <button type="submit" className="btn btn-success buttons1">
               Sign Up
             </button>
           </div>

@@ -20,7 +20,7 @@ export default function Login() {
       };
   let SubmitUser=(e) =>
   {
-    if(e.email=="manasa@gmail.com" , e.pass=="1234"){
+    if(e.email=="manasa@gmail.com" , e.pass=="manasa"){
       console.log(e.email,e.pass);
       navigate('/admin')
     }
