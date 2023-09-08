@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 import './SignUp.css';
 import {useForm } from "react-hook-form";
 export default function SignUp() {
-
+  const [role,setRole]=useState(0)
   let {
     register,
     handleSubmit,
@@ -10,12 +10,13 @@ export default function SignUp() {
 } = useForm();
   let SubmitForm = (UserObj) => {
     {
+      setRole(1);
       fetch("http://localhost:4000/posts", {
         method:"POST",
             headers:{
                 'Content-Type':'application/json',
             },
-            body: JSON.stringify(UserObj),
+            body: JSON.stringify(UserObj,role),
         })
         .then((res) => res.json())
         .then((data) => {
@@ -28,9 +29,9 @@ export default function SignUp() {
   };
 
   return (
-    <div className="auth-wrapper">
-      <div className="auth-inner">
-        <form onSubmit={handleSubmit(SubmitForm)} className="forms">
+    <div className="signup">
+      <div className="signupinner">
+        <form onSubmit={handleSubmit(SubmitForm)}>
           <h3>Sign Up</h3>
           <div className="mb-3">
             <label >First name</label>

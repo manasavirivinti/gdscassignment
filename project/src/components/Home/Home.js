@@ -8,7 +8,7 @@ function Home() {
       <section>
             <div class="submain1">
               <div style={{marginTop:'10px'}}>
-                <h1 >Welcome to the Event Management application</h1>
+                <h1 style={{textShadow:'0.5px 0.5px'}}>Welcome to the Event Management application</h1>
                 <p>
                   A small application where an admin post's various upcoming events  <br></br>
                   and users can register into interested events.<br></br>
@@ -16,7 +16,7 @@ function Home() {
                   Know More About The Upcoming events
                   <br></br>
                   <button className='btn1'>
-                    <a href='/login'>Login / SignUp</a>
+                    <a href='/SignUp'>Login / SignUp</a>
                     </button> 
                 </p>
               </div>

@@ -6,13 +6,122 @@
       "email": "manasa@gmail.com",
       "pass": "1234",
       "id": 2
+    },
+    {
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "role": "1",
+      "id": 3
+    },
+    {
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "role": "1",
+      "id": 4
+    },
+    {
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "role": "2",
+      "id": 5
+    },
+    {
+      "Fname": "bhavana",
+      "Lname": "v",
+      "email": "bhavana@gmail.com",
+      "pass": "5678",
+      "id": 6
+    },
+    {
+      "email": "bhavana@gmail.com",
+      "pass": "5678",
+      "role": "1",
+      "id": 7
+    },
+    {
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "role": "2",
+      "id": 8
+    },
+    {
+      "Fname": "srujana",
+      "Lname": "v",
+      "email": "srujana@gmail.com",
+      "pass": "2345",
+      "id": 9
+    },
+    {
+      "email": "srujana@gmail.com",
+      "pass": "2345",
+      "role": "2",
+      "id": 10
+    },
+    {
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "role": "1",
+      "id": 11
+    },
+    {
+      "email": "manasa@gmail.com",
+      "pass": "1234",
+      "role": "1",
+      "id": 12
+    },
+    {
+      "email": "srujana@gmail.com",
+      "pass": "2345",
+      "role": "2",
+      "id": 13
+    },
+    {
+      "email": "srujana@gmail.com",
+      "pass": "2345",
+      "role": "",
+      "id": 14
+    },
+    {
+      "email": "srujana@gmail.com",
+      "pass": "2345",
+      "id": 15
+    },
+    {
+      "email": "srujana@gmail.com",
+      "pass": "2345",
+      "id": 16
     }
   ],
   "comments": [
     {
-      "ename": "hack",
-      "link": "https://tnp.vnrvjiet.ac.in/dashboard",
+      "ename": "logo design contest",
+      "des": "you have to design a logo regarding n army",
+      "url": "https://www.codechef.com/",
       "id": 1
+    },
+    {
+      "ename": "Coding contest",
+      "des": "The test is for 90 min where you have to solve 3 coding dsa questions",
+      "url": "https://codeforces.com/problemset?order=BY_SOLVED_DESC",
+      "id": 2
+    },
+    {
+      "ename": "fun games",
+      "des": "there are in total 10 games to entertain you for the next 3 hrs!!!",
+      "url": "https://getsocialnow.social/",
+      "id": 3
+    },
+    {
+      "ename": "sih",
+      "des": "it is national wide hackathon where students try to solve some specified domain related problems",
+      "url": "https://www.spoj.com/problems/classical/",
+      "id": 4
+    },
+    {
+      "ename": "sih",
+      "des": "it is national wide hackathon where students try to solve some specified domain related problems",
+      "url": "https://www.spoj.com/problems/classical/",
+      "id": 5
     }
   ],
   "profile": {}

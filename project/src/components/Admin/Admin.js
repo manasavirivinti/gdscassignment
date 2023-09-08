@@ -10,6 +10,7 @@ function Admin(){
         reset
       } = useForm();
       let SubmitEvent = (userObj) => {
+        alert('Submitted Successfully');
         fetch("http://localhost:4000/comments",{
             method:"POST",
             headers:{
@@ -26,30 +27,37 @@ function Admin(){
         <div className="content">
             <form  onSubmit={handleSubmit(SubmitEvent)} className="forms">
                 <label className="mb-3">
-                    
                  <input
                     type="text"
                     id="ename"
-                    placeholder="Title"
+                    placeholder="Event Name"
                     className="field1"
                     style={{borderRadius:"20px" }}
                     {...register("ename",{required:true})} 
                     />
                 </label >
-                 <br />
                 <label>
                  <textarea
                   type="text" 
                   id="des"
-                  placeholder="Link to register" 
+                  placeholder="Description" 
                    className="field2" 
                    style={{borderRadius:"20px" }}
-                   {...register("link",{required:true})} 
+                   {...register("des",{required:true})} 
                 />
-                
                 </label> 
-                <br />
-               <button type="submit" style={{borderRadius:"20px",fontSize:"20px",fontFamily:"cursive",padding:"5px"}}>Submit</button>
+                 <br />
+                 <label className="mb-3">
+                    <input
+                       type="url"
+                       id="url"
+                       placeholder="Link To Register"
+                       className="field1"
+                       style={{borderRadius:"20px" }}
+                       {...register("url",{required:true})} 
+                       />
+                   </label >
+               <button type="submit" style={{borderRadius:"20px",fontSize:"20px",fontFamily:"cursive",padding:"5px",marginTop:'10px'}}>Submit</button>
                 <br />
              </form>
         </div>

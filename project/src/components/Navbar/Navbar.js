@@ -14,17 +14,17 @@ function Navbar(){
                                 </button>
                             </Link>
                         </li>
-                        <li className="navbar-item" >
+                        {/* <li className="navbar-item" >
                             <Link className="nav-link" to="/login">
                                 <button className="btn btn-outline-success btn-sm">
                                     <span className="login-text" style={{fontWeight:"bold"}}>Login</span>
                                 </button>
                             </Link>
-                        </li>
+                        </li> */}
                         <li className="navbar-item" >
-                            <Link className="nav-link" to="/admin">
+                            <Link className="nav-link" to="/SignUp">
                                 <button className="btn btn-outline-success btn-sm">
-                                    <span className="login-text" style={{fontWeight:"bold"}}>Admin</span>
+                                    <span className="login-text" style={{fontWeight:"bold"}}>SignUp</span>
                                 </button>
                             </Link>
                         </li>
